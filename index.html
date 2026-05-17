@@ -9,6 +9,7 @@
 			content="ES KRISTAL menyediakan es batu kristal higienis untuk warung, cafe, restoran, catering, event, toko minuman, dan rumah tangga di Klari, Karawang."
 		/>
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
 	</head>
 	<body>
 		<header class="site-header" id="top">
@@ -78,8 +79,20 @@
 						<div>
 							<p class="eyebrow">Promo ES KRISTAL</p>
 							<h2>Harga Promo Terbaik</h2>
-							<p class="promo-price">Rp 17.000 <span>/ Ball</span></p>
-							<p class="promo-detail">Isi 20 Kg</p>
+							<div class="promo-price-list" aria-label="Daftar harga ES KRISTAL">
+								<div class="promo-price-item is-featured">
+									<p class="promo-price">Rp 17.000 <span>/ Ball</span></p>
+									<p class="promo-detail">Isi 20 Kg</p>
+								</div>
+								<div class="promo-price-item">
+									<p class="promo-price">Rp 10.000</p>
+									<p class="promo-detail">Isi 10 Kg</p>
+								</div>
+								<div class="promo-price-item">
+									<p class="promo-price">Rp 5.000</p>
+									<p class="promo-detail">Isi 5 Kg</p>
+								</div>
+							</div>
 						</div>
 						<a class="button button-primary" href="https://wa.me/6281210410575?text=Halo%20ES%20KRISTAL%2C%20saya%20ingin%20order%20es%20kristal.%20Bisa%20dibantu%20informasinya%3F">Pesan Sekarang</a>
 					</div>
@@ -100,14 +113,14 @@
 							<strong>Mulai Rp17.000 / ball</strong>
 						</article>
 						<article class="card product-card">
-							<h3>Partai Kecil</h3>
+							<h3>Es Kristal 10 Kg</h3>
 							<p>Untuk kebutuhan rumah tangga, acara kecil, dan usaha minuman rumahan.</p>
-							<strong>Hubungi Admin</strong>
+							<strong>Rp10.000</strong>
 						</article>
 						<article class="card product-card">
-							<h3>Partai Besar</h3>
-							<p>Untuk kebutuhan bisnis, event, catering, dan pembelian rutin.</p>
-							<strong>Harga khusus grosir</strong>
+							<h3>Es Kristal 5 Kg</h3>
+							<p>Praktis untuk kebutuhan harian, stok kecil, dan acara sederhana.</p>
+							<strong>Rp5.000</strong>
 						</article>
 					</div>
 				</div>
@@ -223,9 +236,21 @@
 			</div>
 		</footer>
 
-		<a class="floating-whatsapp" href="https://wa.me/6281210410575?text=Halo%20ES%20KRISTAL%2C%20saya%20ingin%20order%20es%20kristal.%20Bisa%20dibantu%20informasinya%3F" aria-label="Order ES KRISTAL via WhatsApp">
-			WA
-		</a>
+		<div class="floating-whatsapp-wrap">
+			<div class="floating-whatsapp-menu" id="whatsapp-menu" aria-label="Pilih nomor WhatsApp">
+				<a href="https://wa.me/6281210410575?text=Halo%20ES%20KRISTAL%2C%20saya%20ingin%20order%20es%20kristal.%20Bisa%20dibantu%20informasinya%3F">
+					<span>Admin 1</span>
+					<strong>0812 1041 0575</strong>
+				</a>
+				<a href="https://wa.me/6281317056339?text=Halo%20ES%20KRISTAL%2C%20saya%20ingin%20order%20es%20kristal.%20Bisa%20dibantu%20informasinya%3F">
+					<span>Admin 2</span>
+					<strong>0813 1705 6339</strong>
+				</a>
+			</div>
+			<button class="floating-whatsapp" type="button" aria-label="Pilih nomor WhatsApp ES KRISTAL" aria-expanded="false" aria-controls="whatsapp-menu">
+				<i class="fab fa-whatsapp" aria-hidden="true"></i>
+			</button>
+		</div>
 
 		<script src="assets/js/main.js"></script>
 	</body>
