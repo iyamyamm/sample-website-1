@@ -428,6 +428,14 @@ p {
 	font-weight: 800;
 }
 
+.promo-terms {
+	margin-top: 4px;
+	font-size: 0.85rem;
+	font-style: italic;
+	font-weight: 600;
+	opacity: 0.84;
+}
+
 .promo-card .button {
 	align-self: center;
 	background: var(--color-accent);
@@ -490,25 +498,24 @@ p {
 }
 
 .step {
+	position: relative;
 	display: grid;
-	grid-template-columns: 48px 1fr;
-	align-items: center;
-	gap: 14px;
+	gap: 12px;
 	padding: 18px;
 	border-radius: var(--radius-md);
 	background: var(--color-surface);
 	box-shadow: var(--shadow-card);
 }
 
-.step span {
-	display: grid;
-	place-items: center;
-	width: 48px;
-	height: 48px;
-	border-radius: 15px;
-	background: var(--color-primary);
-	color: var(--color-surface);
-	font-weight: 900;
+.step img {
+	width: 100%;
+	aspect-ratio: 16 / 11;
+	border-radius: var(--radius-sm);
+	object-fit: contain;
+}
+
+.step h3 {
+	min-height: 2.5em;
 }
 
 .contact-section {
